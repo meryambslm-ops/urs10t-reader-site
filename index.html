@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URS-10T Reader</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #e0f2f1 0%, #f9fffe 50%, #e8f5e9 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 560px;
+            text-align: center;
+            background: white;
+            border-radius: 24px;
+            padding: 48px 36px;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+        }
+        .icon {
+            width: 100px;
+            height: 100px;
+            background: #00897B;
+            border-radius: 22px;
+            margin: 0 auto 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .icon svg {
+            width: 56px;
+            height: 56px;
+            fill: white;
+        }
+        h1 {
+            color: #00695C;
+            font-size: 28px;
+            margin-bottom: 8px;
+        }
+        .tagline {
+            color: #00897B;
+            font-size: 16px;
+            margin-bottom: 32px;
+        }
+        .features {
+            text-align: left;
+            margin: 0 auto 32px;
+            max-width: 360px;
+        }
+        .feature {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 10px 0;
+            font-size: 15px;
+            color: #444;
+        }
+        .feature .check {
+            color: #00897B;
+            font-size: 18px;
+            flex-shrink: 0;
+        }
+        .badge {
+            display: inline-block;
+            margin: 20px 0;
+        }
+        .badge img {
+            height: 50px;
+        }
+        .badge a {
+            display: inline-block;
+            background: #000;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 24px;
+            border-radius: 12px;
+            font-size: 15px;
+            font-weight: 600;
+        }
+        .badge a:hover {
+            background: #222;
+        }
+        .links {
+            margin-top: 28px;
+            font-size: 13px;
+        }
+        .links a {
+            color: #00897B;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .links a:hover {
+            text-decoration: underline;
+        }
+        .disclaimer {
+            margin-top: 24px;
+            font-size: 12px;
+            color: #999;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="icon">
+            <svg viewBox="0 0 24 24"><path d="M3 3h2v2H3V3zm4 0h2v2H7V3zm4 0h2v2h-2V3zm4 0h2v2h-2V3zm4 0h2v2h-2V3zM3 7h2v2H3V7zm16 0h2v2h-2V7zM3 11h2v2H3v-2zm16 0h2v2h-2v-2zM3 15h2v2H3v-2zm16 0h2v2h-2v-2zM3 19h2v2H3v-2zm4 0h2v2H7v-2zm4 0h2v2h-2v-2zm4 0h2v2h-2v-2zm4 0h2v2h-2v-2zM7 9h10v6H7V9z"/></svg>
+        </div>
+        <h1>URS-10T Reader</h1>
+        <p class="tagline">Personal colorimetric reading for URS-10T urine test strips</p>
+
+        <div class="features">
+            <div class="feature"><span class="check">&#10003;</span> Instant colorimetric reading by photo</div>
+            <div class="feature"><span class="check">&#10003;</span> Confidence score for each parameter</div>
+            <div class="feature"><span class="check">&#10003;</span> 10 parameters analyzed</div>
+            <div class="feature"><span class="check">&#10003;</span> Full history and trend charts</div>
+            <div class="feature"><span class="check">&#10003;</span> PDF and CSV export</div>
+            <div class="feature"><span class="check">&#10003;</span> 100% private - no data collected</div>
+        </div>
+
+        <div class="badge">
+            <a href="https://apps.apple.com/app/urs-10t-reader/id6743955692">Download on the App Store</a>
+        </div>
+
+        <div class="links">
+            <a href="privacy-policy.html">Privacy Policy</a>
+        </div>
+
+        <p class="disclaimer">
+            URS-10T Reader is a personal colorimetric reading tool. The displayed values are indicative and based on visual color comparison.
+            This application is not a medical device, does not provide any diagnosis, and does not replace professional advice.
+        </p>
+    </div>
+</body>
+</html>
